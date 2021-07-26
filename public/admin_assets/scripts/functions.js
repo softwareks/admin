@@ -27,15 +27,6 @@ $(document).on('click','.fa-times',function () {
     field.val('');
 });
 
-function Validate(event) {
-    var regex = new RegExp("^[+0-9]");
-    var key = String.fromCharCode(event.charCode ? event.which : event.charCode);
-    if (!regex.test(key)) {
-        event.preventDefault();
-        return false;
-    }
-}
-
 ////////////////// generic of pagination plugin //////////////////////
 
 function pageloading(page, url) {
