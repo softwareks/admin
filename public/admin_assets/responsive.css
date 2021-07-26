@@ -1,0 +1,62 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	[class*="col-"] { padding: 0px 5px; }
+	.row { margin: 0px -5px; }
+	.app-main .app-main__inner { padding: 30px 10px 0px; }
+	.dashboard-wrap ul li, .search-form li { width: 50%; margin: 0px -4px 10px 0px;}
+	.responsive-table { overflow: auto; }
+	.school-detail-gallery ul li { width: 33.333%; }
+	.responsive-table table { width: 1000px !important; }
+	.school-sdetail-list { padding: 20px; }
+	.table-responsive { overflow: auto; }
+	.table-responsive table { width: 1000px !important; }
+	.nav-tabs .nav-item { margin: 0px 5px 10px !important; }
+	.sports-list ul li { width: 50%; }
+	.school-fancy-title h2 { font-size: 20px; letter-spacing: 0px; }
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.table-responsive { overflow: auto; }
+	.table-responsive table { width: 1000px !important; }
+	.school-messages-text figure ~ section { padding: 20px 0px 0px 0px; float: left; width: 100%; }
+	.sports-list { margin: 0px 0px 20px; }
+	.sports-list ul li { width: 50%; }
+	.school-fancy-title h2 { font-size: 22px; }
+	.app-header__logo .logo-src { width: 100%; }
+	.school-detail-gallery ul li { width: 100%; }
+	.table-responsive { overflow: auto; }
+	.table-responsive>.table { width: 1000px !important; }
+	.card-body form { width: 100%; float: left; }
+	.search-form li { width: 50%; margin: 0px 0px 10px;}
+	.search-form li:last-child button { margin: 0px 5px 0px 0px; }
+	#example tr th,#example tr td { display: table-cell !important; }
+	.motivz-job-search ul li { width: 50%; }
+	.student-detail figure.logo-img ~ section { margin: 0px; }
+	.school.student-detail { margin: 0px; padding: 0px; float: left; width: 100%; }
+	.dashboard-wrap ul li, .student-detail figure.logo-img { width: 100%; }
+	.card-header-title.font-size-lg.text-capitalize.font-weight-normal { float: none !important; width: unset !important; }
+	.school-sdetail-listthumb { margin: 0px 0px 20px }.school-sdetail-listthumb ~ figcaption { width: 100%; float: left; margin: 0px 0px 0px 0px; }
+	.school-sdetail-list { padding: 20px; }
+	.school-sdetail-list figcaption h2 { float: left; width: 100%; }
+	.school-sdetail-list figcaption p { width: 100%; float: left; }
+	.responsive-table { overflow: auto; }
+	.responsive-table table { width: 1000px !important; }
+	.table-title { font-size: 20px; }
+	.school-certificate ul li a { font-size: 100px !important; }
+	.nav.nav-tabs { text-align: center;}
+	.nav.nav-tabs li { margin: 0px 3px 8px !important; }
+	.nav.nav-tabs li a { padding: 6px 8px; }
+	.table-responsive > table ~ .row { display: inline-block; width: 100%; margin: 10px -8px 0px; }
+}
+
+/* Media 300Px Start */
+@media (max-width: 600px) {
+	.search-form li,.motivz-job-search ul li { width: 100%; }
+	.search-form.width-full li { width: 100% !important }
+	.card-body form { margin: 0px 0px 10px; }
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+}
